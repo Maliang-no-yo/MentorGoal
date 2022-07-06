@@ -1,0 +1,14 @@
+#appendContact{
+    background-color: rgb(0,200,155);
+    bottom: 60px; 
+    right: 15px; 
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    z-index: 1000000000;
+}
+
+#face_img{
+    width: 100px;
+    height: 100px;
+}

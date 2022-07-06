@@ -1,0 +1,571 @@
+@font-face {
+  font-family: Mulish;
+  src: url("fonts/Mulish.ttf");
+}
+
+#mentorgoalextension_mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+
+  position: fixed;
+  width: 360px;
+  height: 488px;
+  right: 56px;
+  bottom: 56px;
+}
+
+#mentorgoalextension_container {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+  padding: 8px 8px;
+
+  position: absolute;
+  width: 360px;
+  height: 424px;
+  left: 0px;
+  top: 0px;
+
+  /* white */
+
+  background: #ffffff;
+  /* LgShadow */
+
+  box-shadow: 0px 0px 4px rgba(14, 21, 28, 0.04),
+    1px 3px 32px rgba(42, 64, 84, 0.08);
+  border-radius: 16px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px 16px 0px;
+}
+
+#mentorgoalextension_extensionContentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 344px;
+  height: 300px;
+  left: 8px;
+  top: 72px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px 48px 0px;
+}
+
+#mentorgoalextension_button {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 312px;
+  top: 440px;
+
+  /* LgShadow */
+
+  filter: drop-shadow(0px 0px 4px rgba(14, 21, 28, 0.04))
+    drop-shadow(1px 3px 32px rgba(42, 64, 84, 0.08));
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px 16px 0px;
+  z-index: 100;
+}
+
+#mentorgoalextension_buttonVector {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  /* LgShadow */
+
+  box-shadow: 0px 0px 4px rgba(14, 21, 28, 0.04),
+    1px 3px 32px rgba(42, 64, 84, 0.08);
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+#mentorgoalextension_buttonInsideVectorContainer {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: calc(50% - 24px / 2);
+  top: calc(50% - 24px / 2);
+  pointer-events: none;
+}
+
+#mentorgoalextension__buttonInsideVector {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25.01%;
+  pointer-events: none;
+  /* white */
+}
+
+#dragbar {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 8px;
+  top: 8px;
+  cursor: move;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px 48px 0px;
+}
+
+#mentorgoalextension_dragVector {
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 8.33%;
+  bottom: 8.33%;
+  height: 14px;
+  width: 14px;
+  pointer-events: none;
+
+  /* Primary/primary150 */
+}
+
+#mentorgoalextension_extensionHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 24px;
+
+  position: absolute;
+  width: 344px;
+  height: 124px;
+  left: 0px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#mentorgoalextension_extensionHeaderLogo {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 154px;
+  top: 0px;
+
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px 32px 0px;
+}
+
+#mentorgoalextension_extensionHeaderLogoBackground {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  height: 36px;
+  width: 36px;
+  border-radius: 8px;
+}
+
+#mentorgoalextension_extensionHeaderLogoM {
+  position: absolute;
+  left: 15%;
+  right: 55%;
+  top: 32.33%;
+  bottom: 32.33%;
+  width: 12px;
+  height: 14px;
+}
+
+#mentorgoalextension_extensionHeaderLogoG {
+  position: absolute;
+  left: 49%;
+  right: 15.33%;
+  top: 31.67%;
+  bottom: 31.67%;
+  width: 14px;
+  height: 14px;
+}
+
+#mentorgoalextension_exensionHeaderTitleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 296px;
+  height: 56px;
+  left: 24px;
+  top: 68px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px 32px 0px;
+}
+
+#mentorgoalextension_extensionHeaderTitleText1 {
+  position: absolute;
+  width: 105px;
+  height: 24px;
+  left: 99px;
+  top: 0px;
+
+  /* size6/bold/normal */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  /* Primary/primary700P */
+
+  color: #2a4054;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+#mentorgoalextension_extensionHeaderTitleText2 {
+  position: absolute;
+  width: 251px;
+  height: 24px;
+  left: 23px;
+  top: 32px;
+
+  /* size7/regular/normal */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Primary/primary200 */
+
+  color: #a3b5c5;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+#mentorgoalextension_extensionContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 24px;
+
+  position: absolute;
+  width: 344px;
+  height: 128px;
+  left: 0px;
+  top: 172px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#mentorgoalextension_extensionContent div:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 296px;
+  height: 24px;
+  left: 24px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+#mentorgoalextension_extensionContent div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 296px;
+  height: 24px;
+  left: 24px;
+  top: 40px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+#mentorgoalextension_extensionContent div:nth-child(3) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 296px;
+  height: 48px;
+  left: 24px;
+  top: 80px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+#mentorgoalextension_step1P {
+  position: relative;
+  width: 274px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+
+  /* size7/regular/normal */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Primary/primary500 */
+
+  color: #466a8b;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 0px 8px;
+}
+
+#mentorgoalextension_step2P {
+  position: relative;
+  width: 274px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+
+  /* size7/regular/normal */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Primary/primary500 */
+
+  color: #466a8b;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 0px 8px;
+}
+
+#mentorgoalextension_step3P {
+  position: relative;
+  width: 274px;
+  height: 48px;
+  left: 0px;
+  top: 0px;
+
+  /* size7/regular/normal */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Primary/primary500 */
+
+  color: #466a8b;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 0px 8px;
+}
+
+#mentorgoalextension_step1Number {
+  position: relative;
+  width: 14px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+
+  /* size7/semiBold/normal */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Primary/primary700P */
+
+  color: #2a4054;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+#mentorgoalextension_step2Number {
+  position: relative;
+  width: 14px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+
+  /* size7/semiBold/normal */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Primary/primary700P */
+
+  color: #2a4054;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+#mentorgoalextension_step3Number {
+  position: relative;
+  width: 14px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+
+  /* size7/semiBold/normal */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Primary/primary700P */
+
+  color: #2a4054;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+#divM {
+  position: absolute;
+  left: 7.2px;
+  right: 26.4px;
+  top: 15.52px;
+  bottom: 15.52px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#divG {
+  position: absolute;
+  left: 23.52px;
+  right: 7.36px;
+  top: 15.2px;
+  bottom: 15.2px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

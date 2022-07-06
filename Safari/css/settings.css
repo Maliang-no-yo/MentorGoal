@@ -1,0 +1,530 @@
+#mentorgoalextension_settingsContentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  position: absolute;
+  width: 360px;
+  height: 392px;
+  left: 0px;
+  top: 0px;
+
+  /* white */
+
+  background: #ffffff;
+  /* LgShadow */
+
+  box-shadow: 0px 0px 4px rgba(14, 21, 28, 0.04),
+    1px 3px 32px rgba(42, 64, 84, 0.08);
+  border-radius: 16px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#mentorgoalextension_settingsContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  position: absolute;
+  width: 360px;
+  height: 392px;
+  left: 0px;
+  top: 0px;
+
+  /* white */
+
+  background: #ffffff;
+  /* LgShadow */
+
+  box-shadow: 0px 0px 4px rgba(14, 21, 28, 0.04),
+    1px 3px 32px rgba(42, 64, 84, 0.08);
+  border-radius: 16px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#mentorgoalextension_settingsContentContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 296px;
+  height: 296px;
+  left: 12px;
+  top: 48px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 20px;
+}
+
+#mentorgoalextension_formButtonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 296px;
+  height: 40px;
+  left: 0px;
+  top: 256px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 32px 0px;
+  z-index: 100;
+}
+
+#mentorgoalextension_formButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+
+  position: absolute;
+  width: 156px;
+  height: 28px;
+  left: 70px;
+  top: 14px;
+
+  /* Primary/primary200 */
+
+  border: 2px solid #a3b5c5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: white;
+  color: #a3b5c5;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 8px 0px;
+  z-index: 101;
+  cursor: pointer;
+}
+
+#mentorgoalextension_formButtonDivider {
+  position: absolute;
+  width: 296px;
+  height: 4px;
+  left: 0px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+#mentorgoalextension_settingsForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+
+  position: absolute;
+  width: 296px;
+  height: 224px;
+  left: 0px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px 32px 0px;
+}
+
+#mentorgoalextension_emailInputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 296px;
+  height: 64px;
+  left: 0px;
+  top: 160px;
+
+  border-radius: 4px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+#mentorgoalextension_emailLabel {
+  position: absolute;
+  width: 296px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+
+  /* size8/regular/normal */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Primary/primary150 */
+
+  color: #c8d3dc;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+
+#mentorgoalextension_emailInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+
+  position: absolute;
+  width: 264px;
+  height: 40px;
+  left: 0px;
+  top: 24px;
+
+  /* Primary/primary50 */
+
+  background: #f6f8f9;
+  border-radius: 4px;
+  border: none;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+
+#mentorgoalextension_emailHelper {
+  position: absolute;
+  display: none;
+  width: 221px;
+  height: 20px;
+  left: 0px;
+  top: 68px;
+
+  /* size8/regular/normal */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Primary/primary150 */
+
+  color: #c8d3dc;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+
+#mentorgoalextension_statusSelectContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 296px;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+
+  border-radius: 4px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+#mentorgoalextension_statusLabel {
+  position: absolute;
+  width: 296px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+
+  /* size8/regular/normal */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Primary/primary300 */
+
+  color: #7590a8;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+
+#mentorgoalextension_statusSelect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+
+  position: absolute;
+  width: 296px;
+  height: 40px;
+  left: 0px;
+  top: 24px;
+
+  /* Primary/primary50 */
+
+  background: #f6f8f9;
+  border-radius: 4px;
+  border: none;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+
+#mentorgoalextension_typeSelectContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 296px;
+  height: 64px;
+  left: 0px;
+  top: 80px;
+
+  border-radius: 4px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+#mentorgoalextension_typeLabel {
+  position: absolute;
+  width: 296px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+
+  /* size8/regular/normal */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Primary/primary300 */
+
+  color: #7590a8;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+
+#mentorgoalextension_typeSelect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+
+  position: absolute;
+  width: 296px;
+  height: 40px;
+  left: 0px;
+  top: 24px;
+
+  /* Primary/primary50 */
+
+  background: #f6f8f9;
+  border-radius: 4px;
+  border: none;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+
+#mentorgoalextension_settingsHeaderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 344px;
+  height: 32px;
+  left: 8px;
+  top: 8px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px 32px 0px;
+}
+
+#mentorgoalextension_settingsHeaderContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 344px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+#mentorgoalextension_settingsHeaderDivider {
+  position: absolute;
+  width: 344px;
+  height: 4px;
+  left: 0px;
+  top: 28px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+#mentorgoalextension_settingsHeaderText {
+  position: absolute;
+  width: 328px;
+  height: 20px;
+  left: 16px;
+  top: 0px;
+
+  /* size8/bold/normal */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  text-align: center;
+
+  /* Primary/primary300 */
+
+  color: #7590a8;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 0px 0px;
+}
+
+#mentorgoalextension_settingsHeaderVector {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0px;
+  top: 2px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}

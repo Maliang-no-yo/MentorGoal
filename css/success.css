@@ -1,0 +1,191 @@
+#mentorgoalextension_successContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 8px;
+
+  position: absolute;
+  width: 360px;
+  height: 280px;
+  left: 0px;
+  top: 0px;
+
+  /* white */
+
+  background: #ffffff;
+  /* LgShadow */
+
+  box-shadow: 0px 0px 4px rgba(14, 21, 28, 0.04),
+    1px 3px 32px rgba(42, 64, 84, 0.08);
+  border-radius: 16px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#mentorgoalextension_successContentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 344px;
+  height: 200px;
+  left: 8px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#mentorgoalextension_successHeaderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 24px;
+
+  position: absolute;
+  width: 344px;
+  height: 120px;
+  left: 0px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 30px 0px;
+}
+
+#mentorgoalextension_successHeaderVector {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 160px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 16px 0px;
+  z-index: 10000;
+}
+
+#mentorgoalextension_successHeaderText1 {
+  position: absolute;
+  width: 296px;
+  height: 40px;
+  left: 24px;
+  top: 40px;
+
+  /* size8/regular/normal */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  text-align: center;
+
+  /* Primary/primary200 */
+
+  color: #a3b5c5;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px 0px 0px;
+}
+
+#mentorgoalextension_successHeaderText2 {
+  position: absolute;
+  width: 127px;
+  height: 24px;
+  left: 108.5px;
+  top: 96px;
+
+  /* size6/bold/normal */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  /* Primary/primary700P */
+
+  color: #2a4054;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 16px 0px 0px 0px;
+}
+
+#mentorgoalextension_successButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+
+  position: absolute;
+  width: 221px;
+  height: 40px;
+  left: 61.5px;
+  top: 160px;
+
+  /* Primary/primary700P */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f6f8f9;
+  background: #2a4054;
+  border-radius: 4px;
+
+  cursor: pointer;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 40px 0px;
+}
+
+#mentorgoalexension_successLinkVector {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 16px;
+  top: 8px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

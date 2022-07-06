@@ -1,0 +1,298 @@
+#extension_box {
+  /* hoverJobboard */
+
+  /* Auto Layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+
+  position: fixed;
+  /* width: 256px;
+  height: 300px;
+  bottom: 40px;
+  right: 40px; */
+}
+
+#dragbar {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 16px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+#dragbar:hover {
+  cursor: move;
+}
+
+#jobHover {
+  /* extensionContainer */
+
+  /* Auto Layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px;
+
+  position: absolute;
+  width: 256px;
+  height: 164px;
+  left: 0px;
+  top: 0px;
+
+  /* white */
+  background: #ffffff;
+
+  /* MdShadow */
+  box-shadow: 0px 0px 4px rgba(14, 21, 28, 0.04),
+    1px 2px 24px rgba(42, 64, 84, 0.06);
+  border-radius: 0px 0px 16px 16px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+#extension_box::-webkit-scrollbar {
+  /* scroll */
+
+  position: static;
+  width: 6px;
+  height: 135px;
+  left: 338px;
+  top: 0px;
+
+  /* Primary/primary150 */
+
+  background: #c8d3dc;
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 20px;
+}
+
+#bubble_hover {
+  /* bubbleHover */
+
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  bottom: 0px;
+  right: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#bubbleDefault {
+  /* bubbleDefault */
+
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 8px;
+  top: 8px;
+
+  /* LgShadow */
+  filter: drop-shadow(0px 0px 4px rgba(14, 21, 28, 0.04))
+    drop-shadow(1px 3px 32px rgba(42, 64, 84, 0.08));
+  border-radius: 8px;
+}
+
+.listItem {
+  /* listItem / large */
+
+  /* Auto Layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+
+  position: static;
+  width: 240px;
+  left: 8px;
+  top: 104px;
+
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 8px;
+}
+
+.listItem div {
+  /* Leading Icon */
+
+  position: static;
+  width: 16px;
+  height: 16px;
+  left: 16px;
+  top: 10px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+.listItem p {
+  /* Label */
+
+  position: static;
+  width: 184px;
+  height: 20px;
+  left: 40px;
+  top: 8px;
+
+  /* size8/regular/normal */
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+
+  /* identical to box height, or 143% */
+
+  /* Primary/primary700P */
+  color: #2a4054;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+#eye {
+  /* jobAvailable */
+
+  /* Auto Layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2px;
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+
+  /* Customization Palette/accent3 */
+  background-color: #E76F51;
+
+  /* LgShadow */
+  box-shadow: 0px 0px 4px rgba(14, 21, 28, 0.04),
+    1px 3px 32px rgba(42, 64, 84, 0.08);
+  border-radius: 50%;
+}
+
+#in_eye{
+  position: absolute;
+  width: 13px;
+  height: 9px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+
+}
+
+.listItem p:hover {
+  cursor: pointer;
+}
+
+/* Formulaire */
+
+#jobHover form label {
+  /* Label */
+
+  position: static;
+  width: 240px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+
+  /* size8/regular/normal */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Primary/primary300 */
+
+  color: #7590a8;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+
+#jobHover form input,
+#jobHover form select,
+#jobHover form textarea {
+  /* Placeholder */
+
+  position: static;
+  width: 244px;
+  max-width: 244px;
+  height: 24px;
+  left: 16px;
+  top: 8px;
+
+  /* size7/regular/normal */
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 4px auto 4px auto;
+}
+
+#jobHover form textarea {
+  height: 10em;
+}
+
+#divM{
+  position: absolute;
+  left: 7.2px;
+  right: 26.4px;
+  top: 15.52px;
+  bottom: 15.52px;
+}
+
+#divG{
+  position: absolute;
+  height: 17.6px;
+  width: 17.12px;
+  left: 23.52px;
+  top: 15.2px;
+}
+
+#divX{
+  position: absolute;
+  left: 18px;
+  right: 18px; 
+  top: 18px;
+  bottom: 18px;
+}

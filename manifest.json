@@ -1,0 +1,187 @@
+{
+  "name": "Mentor Goal",
+  "description": "Mentor Goal\nTrouve ton prochain job facilement.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "icons": {
+    "16": "images_mentor_goal/mentorgoalextensionlogo16.png",
+    "48": "images_mentor_goal/mentorgoalextensionlogo48.png",
+    "128": "images_mentor_goal/mentorgoalextensionlogo128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.welcometothejungle.com/*",
+        "https://fr.indeed.com/*",
+        "https://www.welcometothejungle.com/*",
+        "https://www.Regionsjob.com/*",
+        "https://www.Ouestjob.com/*",
+        "https://www.SudOuestjob.com/*",
+        "https://www.RhoneAlpesjob.com/*",
+        "https://www.Centrejob.com/*",
+        "https://www.Estjob.com/*",
+        "https://www.Parisjob.com/*",
+        "https://www.Pacajob.com/*",
+        "https://www.Nordjob.com/*",
+        "https://jobs-stages.letudiant.fr/*",
+        "https://www.linkedin.com/*",
+        "https://candidat.pole-emploi.fr/*",
+        "https://www.cornerjob.com/*",
+        "https://www.studyrama-emploi.com/*",
+        "https://www.monster.fr/*"
+      ],
+      "js": [
+        "js/drag.js", 
+        "js/templates/menu_template.js",
+        "js/templates/success_template.js"
+      ],
+      "css": [
+        "css/menu.css",
+        "css/settings.css",
+        "css/candidacy.css",
+        "css/contact.css",
+        "css/success.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://mg-student.netlify.app/applications"
+      ],
+      "js": [
+        "js/drag.js", "js/templates/tutorial_template.js"
+      ],
+      "css": ["css/tutorial.css"]
+    },
+    {
+      "matches": [
+        "https://fr.indeed.com/*"
+      ],
+      "js": [
+        "js/scraping/scraping_indeed.js",
+        "js/templates/settings_template.js",
+        "js/templates/candidacyMenu_template.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.welcometothejungle.com/*"
+      ],
+      "js": [
+        "js/scraping/scraping_welcome.js",
+        "js/templates/settings_template.js",
+        "js/templates/candidacyMenu_template.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.monster.fr/offres-demploi/*"
+      ],
+      "js": [
+        "js/scraping/scraping_monster.js",
+        "js/templates/settings_template.js",
+        "js/templates/candidacyMenu_template.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.monster.fr/emploi/*"
+      ],
+      "js": [
+        "js/scraping/scraping_monsterRecherche.js",
+        "js/templates/settings_template.js",
+        "js/templates/candidacyMenu_template.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.Regionsjob.com/*",
+        "https://www.Ouestjob.com/*",
+        "https://www.SudOuestjob.com/*",
+        "https://www.RhoneAlpesjob.com/*",
+        "https://www.Centrejob.com/*",
+        "https://www.Estjob.com/*",
+        "https://www.Parisjob.com/*",
+        "https://www.Pacajob.com/*",
+        "https://www.Nordjob.com/*"
+      ],
+      "js": [
+        "js/scraping/scraping_xjob.js",
+        "js/templates/settings_template.js",
+        "js/templates/candidacyMenu_template.js"
+
+      ]
+    },
+    {
+      "matches": [
+        "https://jobs-stages.letudiant.fr/*"
+      ],
+      "js": [
+        "js/scraping/scraping_letudiant.js",
+        "js/templates/settings_template.js",
+        "js/templates/candidacyMenu_template.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.linkedin.com/*"
+      ],
+      "js": [
+        "js/scraping/scraping_linkedin.js",
+        "js/templates/settings_template.js",
+        "js/templates/candidacyMenu_template.js",
+        "js/templates/contactMenu_template.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://candidat.pole-emploi.fr/*"
+      ],
+      "js": [
+        "js/scraping/scraping_poleemploi.js",
+        "js/templates/settings_template.js",
+        "js/templates/candidacyMenu_template.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.studyrama-emploi.com/*"
+      ],
+      "js": [
+        "js/scraping/scraping_studyrama.js",
+        "js/templates/settings_template.js",
+        "js/templates/candidacyMenu_template.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.cornerjob.com/*"
+      ],
+      "js": [
+        "js/scraping/scraping_cornerJob.js",
+        "js/templates/settings_template.js",
+        "js/templates/candidacyMenu_template.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images_mentor_goal/*", "fonts/Mulish.ttf"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "action": {},
+  "permissions": [
+    "storage",
+    "declarativeContent",
+    "activeTab",
+    "scripting",
+    "tabs"
+  ]
+}
